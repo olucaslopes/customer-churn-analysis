@@ -22,6 +22,7 @@ Análise e predição do `Churn` de clientes de uma empresa de Telecomunicaçõe
         <li>
             <a href="#4-modelagem-e-avaliação-de-modelos">Modelagem e Avaliação de Modelos</a>
             <ul>
+                <li><a href="#algorítmos-usados">Algorítmos usados</a></li>
                 <li><a href="#métrica">Métrica</a></li>
                 <li><a href="#técnica-de-reamostragem">Técnica de reamostragem</a></li>
             </ul>
@@ -82,7 +83,7 @@ dependentes
 
 ## 4. Modelagem e Avaliação de Modelos
 
-* Algorítmos usados
+### Algorítmos usados:
   * Árvore de Decisão
   * Floresta Aleatória
   * XGBoost
@@ -95,7 +96,7 @@ Como para esse problema desejamos maximizar os verdadeiros positivos, escolhemos
 
 <h3>Técnica de reamostragem:</h3>
 <img align="left" src="img/perf-resampling.png" width="50%"/>
-<p>Testamos diferentes técnicas de reamostragem com o modelo Floresta Aleatória e a melhor técnica para o _recall_ foi o <code>undersample</code></p>
+<p>Testamos diferentes técnicas de reamostragem com o modelo Floresta Aleatória e a melhor técnica para o <i>recall</i> foi o <code>undersample</code></p>
 
 <br clear="left"/>
 <br>
